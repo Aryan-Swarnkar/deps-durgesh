@@ -1,0 +1,15 @@
+[project]
+name = "deps-durgesh"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.0",
+    "fastapi[standard]>=0.143.5",
+    "psycopg[binary]>=3.3.6",
+    "pydantic-settings>=2.16.0",
+    "redis>=8.1.0",
+    "sqlalchemy[asyncio]>=2.1.5",
+    "uvicorn[standard]>=0.54.0",
+]
